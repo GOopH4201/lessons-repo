@@ -47,10 +47,17 @@ ___
 
 3. `smard_low_hight_predict` - предполагает, что искомое число всегда находится между между `low` и `hight`.
 
+Каждая из функций возвращает кол-во попыток.
+
 :arrow_up: [к оглавлению](https://github.com/GOopH4201/lessons-repo/tree/main/Lesson1/project_0/README.md#Оглавление)
 ___
 
 ### Этапы работы над проектом
+Были описаны выше сказанные [функции](https://github.com/GOopH4201/lessons-repo/tree/main/Lesson1/project_0/README.md#Краткая-информация-о-данных) и написана программа для проведения эксперимента:
+
+- `score_game`
+
+Которая генерирует  1000 случайных чисел, после чего прогоняет каждое через [функции](https://github.com/GOopH4201/lessons-repo/tree/main/Lesson1/project_0/README.md#Краткая-информация-о-данных), и считает среднее число попыток.
 
 :arrow_up: [к оглавлению](https://github.com/GOopH4201/lessons-repo/tree/main/Lesson1/project_0/README.md#Оглавление)
 ___
