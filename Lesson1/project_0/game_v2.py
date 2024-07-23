@@ -61,13 +61,14 @@ def low_hight_predict(number: int=1) -> int:
 
 
 def smard_low_hight_predict(number: int=1) -> int:
-    """Находит загаданное число по алгоритму границ деля его попалам
+    """Find the hidden number using the boundary algorithm, 
+       dividing it in half.
 
     Args:
-        number (int, optional): Число которое нужно угадать. Defaults to 1.
+        number (int, optional): The number it need to guess. Defaults to 1.
 
     Returns:
-        int: Кол-во попыток
+        int: Number of attempts
     """
     # Границы поиска
     low = 1
